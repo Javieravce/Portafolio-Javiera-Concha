@@ -1,0 +1,732 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portafolio de Javiera Concha</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Arima:wght@100..700&display=swap" rel="stylesheet">
+  
+  
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="assets/img/css/styles.css">
+
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+
+  
+  
+</head>
+
+<body>
+  <div class="container-fluid p-0" id="navbar">
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #aee6ae;">
+        <div class="container-fluid">
+            <h1 class="card-title text-left ps-4"><strong>Portafolio - Diseño UX/UI</strong></h1>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#trabajos">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+                   <!-- <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Blog
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>-->
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+
+<!-- Portada -->
+  <div class="container-fluid" id="portada" style="background-color: #e5dfff; padding: 50px 0;">
+    <div class="row text-center justify-content-center align-items-center">
+        <div class="col-md-3">
+            <img src="assets/img/avatar2.jpg" class="img-fluid rounded-circle" style="width: 150px; height: 150px;" alt="Javiera Concha">
+        </div>
+        <div class="col-md-6">
+            <h1><strong>¡Hola! Soy Javiera Concha,</strong></h1>
+            <p style="font-size: large;"> una diseñadora UX/UI en formación. A lo largo de mi curso de UX, he tenido la oportunidad de trabajar en varios proyectos que me han permitido desarrollar y perfeccionar mis habilidades en el diseño de interfaces intuitivas y centradas en el usuario. Aunque soy nueva en el campo, estoy lista para aplicar todo lo aprendido en nuevos desafíos y oportunidades.</p>
+            <button type="button" class="btn btn-primary mx-2" onclick="window.location.href='https://www.behance.net/javieraconchaescobar';">
+              Ver Proyectos
+          </button>
+            <button type="button" class="btn btn-secondary mx-2" data-bs-toggle="modal" data-bs-target="#contactModal">Contáctame</button>
+        </div>
+    </div>
+</div>
+
+   <!-- Modal de Contacto -->
+   <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="contactModalLabel">Datos de Contacto</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p><strong>Teléfono:</strong> +56 9 1234 5678</p>
+                <p><strong>Correo Electrónico:</strong> javiera.concha@example.com</p>
+                
+                <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/javiera-concha-escobar-860111260/" target="_blank">Mi Perfil</a></p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Formación -->
+  <div class="container-fluid my-5" id="formacion">
+    <div class="row d-flex justify-content-center text-center w-auto">
+      <h1 class="pb-5"><strong>Formación académica</strong></h1>
+      <div class="col-12 col-md-4 text-center h-auto">
+        <div class="icon-container">
+          <img src="/assets/img/caracteristicas-1.svg" class="img-small" alt="EASY TO EDIT">
+        </div>
+        <div class="card-body mx-auto pb-5" style="max-width: 75%;">
+          <h5 class="card-title pb-2"><strong>Periodista</strong></h5>
+          <p class="card-text justify-content-center">Titulada de la Universidad de Santiago de Chile, con 5 años de experiencia en redacción de contenido para sitio web y redes sociales.</p>
+        </div>
+      </div>
+      <div class="col-12 col-md-4 text-center h-auto">
+        <div class="icon-container">
+          <img src="/assets/img/caracteristicas-2.svg" class="img-small" alt="LAYERED PSD">
+        </div>
+        <div class="card-body mx-auto pb-5">
+          <h5 class="card-title pb-2"><strong>Diplomado en edición y pubicaciones</strong></h5>
+          <p class="card-text justify-content-center"> Cursado en la Pontificia Universidad Católica de Chile. Enfocado en la edición, redacción, corrección, diseño, producción y publicación de libros y textos en general.</p>
+        </div>
+      </div>
+      <div class="col-12 col-md-4 text-center h-auto">
+        <div class="icon-container">
+          <img src="/assets/img/caracteristicas-3.svg" class="img-small" alt="READY TO GO">
+        </div>
+        <div class="card-body mx-auto pb-5">
+          <h5 class="card-title pb-2"><strong>Bootcamp Diseño UX/UI - Talento Digital</strong></h5>
+          <p class="card-text justify-content-center">Desarrollo de habilidades para diseñar interfaces, flujos de navegación y prototipos centrados en la experiencia de usuarios, además de aplicar técnicas de investigación y benchmarking para cumplir con los objetivos de los proyectos.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- Aprendizaje -->
+  <div class="container " id="aprendizaje" style="background-color: #e5dfff;">
+<div class="row">
+<div class="container py-2 px-2"><h2><strong>Mi aprendizaje</strong></h2>
+    <p style="font-size: large;"> Durante mi formación, he trabajado en varios proyectos que me han permitido aplicar los conceptos y técnicas de UX. Desde la investigación de usuarios hasta la creación de prototipos, cada proyecto ha sido una oportunidad para desarrollar mis habilidades y aprender más sobre cómo diseñar experiencias digitales efectivas.</p></div>
+
+</div>
+  </div>
+  
+<!-- Proyectos -->
+  <div class="container my-5" id="proyectos">
+    <h1 class="mb-4 text-center py-3"><strong>Mis Proyectos</strong></h1>
+    
+    <div class="row">
+        
+        <div class="col-md-6 mb-4">
+            <div class="card card-custom">
+                <img src="assets/img/mangaescritorio.png" alt="Thumbnail" class="thumbnail" data-toggle="modal" data-target="#videoModal2">
+                <div class="card-body">
+                    <h5 class="card-title"><strong>Diseño de prototipo desktop en alta fidelidad</strong></h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Tintas & Palabras</h6>
+                    <p class="card-text">Tienda enfocada en venta de cómics, mangas y productos relacionados al mundo anime geek.</p>
+                    <a href="#" class="icon-link gap-1 icon-link-hover stretched-link" data-toggle="modal" data-target="#videoModal2">
+                        Ver prototipo
+                        <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 mb-4">
+            <div class="card card-custom">
+                <img src="assets/img/raices4.jpg" alt="Thumbnail" class="thumbnail" data-toggle="modal" data-target="#videoModal3">
+                <div class="card-body">
+                    <h5 class="card-title"><strong>Diseño de prototipo sitio web en HTML</strong></h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Raíces Artesanales</h6>
+                    <p class="card-text">Tienda ficticia online creada para promover el trabajo de artesanos chilenos.</p>
+                    <a href="#" class="icon-link gap-1 icon-link-hover stretched-link" data-toggle="modal" data-target="#videoModal3">
+                        Ver prototipo
+                        <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 mb-4">
+          <div class="card card-custom" style="margin-bottom: 20px; border: 0; border-radius: 15px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); overflow: hidden; transition: transform 0.2s;">
+              <img src="assets/img/mobilemanga.jpg" alt="Thumbnail" class="thumbnail" data-toggle="modal" data-target="#videoModal1" style="width: 100%; height: 200px; object-fit: cover;">
+              <div class="card-body">
+                  <h5 class="card-title"><strong>Diseño de prototipo mobile en alta fidelidad</strong></h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Tintas & Palabras</h6>
+                  <p class="card-text">Tienda enfocada en venta de cómics, mangas y productos relacionados al mundo anime geek.</p>
+                  <a href="#" class="icon-link gap-1 icon-link-hover stretched-link" data-toggle="modal" data-target="#videoModal1">
+                      Ver prototipo
+                      <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+                  </a>
+              </div>
+          </div>
+      </div>
+      
+        <div class="col-md-6 mb-4">
+            <div class="card card-custom">
+                <img src="assets/img/compost1.jpg" alt="Thumbnail" class="thumbnail" data-toggle="modal" data-target="#videoModal4">
+                <div class="card-body">
+                    <h5 class="card-title"><strong>Diseño de prototipo sitio web en HTML</strong></h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Compost en Casa</h6>
+                    <p class="card-text">Landing page ficticia para educar y motivar sobre el compostaje domiciliario.</p>
+                    <a href="#" class="icon-link gap-1 icon-link-hover stretched-link" data-toggle="modal" data-target="#videoModal4">
+                        Ver prototipo
+                        <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+      
+</div>
+
+<!-- Modal 1 -->
+<div class="modal fade" id="videoModal1" tabindex="-1" aria-labelledby="videoModalLabel1" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="videoModalLabel1">Prototipo Mobile tienda Tintas & Palabras</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <video class="video-small" controls style="width: 100%;">
+                    <source src="assets/video/mangasmobile.mp4" type="video/mp4">
+                   
+                </video>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal 2 -->
+<div class="modal fade" id="videoModal2" tabindex="-1" aria-labelledby="videoModalLabel2" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="videoModalLabel2">Prototipo Desktop tienda Tintas & Palabras</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <video class="video-small" controls style="width: 100%;">
+                    <source src="assets/video/mangasdesktop.mp4" type="video/mp4">
+                    
+                </video>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal 3 -->
+<div class="modal fade" id="videoModal3" tabindex="-1" aria-labelledby="videoModalLabel3" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="videoModalLabel3">Prototipo Raíces Artesanales</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <video class="video-small" controls style="width: 100%;">
+                    <source src="assets/video/raicesartesanales.mp4" type="video/mp4">
+                    
+                </video>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal 4 -->
+<div class="modal fade" id="videoModal4" tabindex="-1" aria-labelledby="videoModalLabel4" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title" id="videoModalLabel3">Prototipo sitio web Compost En Casa </h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+              </button>
+          </div>
+          <div class="modal-body">
+              <video class="video-small" controls style="width: 100%;">
+                  <source src="assets/video/compost.mp4" type="video/mp4">
+                  
+              </video>
+          </div>
+      </div>
+  </div>
+</div>
+
+<!-- Proyectos desarrollados en Bootcamp UX/UI 2024-->
+<div class="container-fluid" style="background-color: #e5dfff" id="trabajos">
+  <h4 class="fst-italic py-4 text-start" ><strong>Proyectos desarrollados en Bootcamp UX/UI 2024</strong></h4>
+  <div class="row justify-content-center">
+      <div class="col-md-6 mb-4">
+          <div class="card shadow-sm card-custom">
+              <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none" href="#" data-bs-toggle="modal" data-bs-target="#modal1">
+                  <img src="assets/img/imagen-portafolio1.jpg" class="img-medium" alt="">
+                  <div class="col-lg-8">
+                      <h6 class="mb-0">Diseño de interfaz de interacción de usuario</h6>
+                      <small class="text-body-secondary">Proyecto: Tintas & Palabras</small>
+                  </div>
+              </a>
+          </div>
+      </div>
+      <div class="col-md-6 mb-4">
+          <div class="card shadow-sm card-custom">
+              <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none" href="#" data-bs-toggle="modal" data-bs-target="#modal2">
+                  <img src="assets/img/altafidelidad1.jpg" class="img-medium" alt="">
+                  <div class="col-lg-8">
+                      <h6 class="mb-0">Propuesta de solución digital en alta definición</h6>
+                      <small class="text-body-secondary">Proyecto: Tintas & Palabras</small>
+                  </div>
+              </a>
+          </div>
+      </div>
+      <div class="col-md-6 mb-4">
+          <div class="card shadow-sm card-custom">
+              <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none" href="#" data-bs-toggle="modal" data-bs-target="#modal3">
+                  <img src="assets/img/raices4.jpg" class="img-medium" alt="">
+                  <div class="col-lg-8">
+                      <h6 class="mb-0">Propuesta sitio web</h6>
+                      <small class="text-body-secondary">Caso “Raíces Artesanas” Tienda Online de Artesanía Local</small>
+                  </div>
+              </a>
+          </div>
+      </div>
+      <div class="col-md-6 mb-4">
+          <div class="card shadow-sm card-custom">
+              <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none" href="#" data-bs-toggle="modal" data-bs-target="#modal4">
+                  <img src="assets/img/compost1.jpg" class="img-medium" alt="">
+                  <div class="col-lg-8">
+                      <h6 class="mb-0">Propuesta sitio web en HTML</h6>
+                      <small class="text-body-secondary">Caso “Compost en casa”</small>
+                  </div>
+              </a>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+
+<!-- Modal 1 -->
+<div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="exampleModalLabel1" aria-hidden="true">
+  <div class="modal-dialog modal-fullscreen">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel1">Actividad: Propuesta de solución digital en media fidelidad</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-md-6">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="assets/img/imagen-portafolio1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/img/wireframemedia2.png" class="d-block w-100" alt="...">
+                </div>
+                
+                <div class="carousel-item">
+                  <img src="assets/img/wireframemedia3.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/img/wireframemedia4.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/img/wireframemedia5.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/img/wireframemedia6.png" class="d-block w-100" alt="...">
+                </div>
+                
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <p><strong>Aprendizaje esperado:</strong>
+              Implementar un prototipo interactivo de alta
+              fidelidad o mockup de un producto digital
+              utilizando técnicas y herramientas que
+              provoquen una positiva experiencia para los usuarios.</p><br>
+              <p><strong>Proyecto de sitio web Tintas & Palabras</strong></p>
+            <p>El objetivo de este prototipo era crear una plataforma intuitiva que no solo facilitase la compra de mangas y cómics, sino que también enriqueciera la experiencia de los usuarios apasionados por este género.</p>
+              <p> Antes de trabajar en el prototipo de media fidelidad, se realizó un benchmarking, mapa de empatía, user persona e investigación en general que ayudase a crear un sitio que, verdaderamente, respondiera a las necesidades y deseos de los aficionados. El resultado fue un diseño que prioriza la facilidad de uso y la satisfacción del usuario, asegurando que cada interacción sea significativa y memorable para los usuarios. </p>
+          <p> En las imágenes pueden ver el prototipo en media fidelidad, que después tuvo varias modificaciones debido a los testeos y entrevistas para mejorar el diseño. </p>
+            </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal 2 -->
+<div class="modal fade" id="modal2" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+  <div class="modal-dialog modal-fullscreen">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel2">Actividad: Propuesta de solución digital en alta definición para sitio web</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-md-6">
+            <div id="carouselExampleControls2" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="assets/img/altafidelidad1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/img/altafidelidad2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/img/altafidelidad3.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/img/altafidelidad4.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/img/altafidelidad5.jpg" class="d-block w-auto" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/img/altafidelidad5-1.png" class="d-block w-auto" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/img/altafidelidad6.jpg" class="d-block w-auto" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/img/altafidelidad7.jpg" class="d-block w-auto" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/img/altafidelidad8.png" class="d-block w-auto" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/img/altafidelidad9.png" class="d-block w-auto" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls2" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls2" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <p><strong>Aprendizaje esperado:</strong> Implementar un prototipo interactivo de alta
+              fidelidad o mockup de un producto digital para un sitio web
+              utilizando técnicas y herramientas que
+              provoquen una positiva experiencia usuaria.</p>
+              <p><strong>Wireframe de alta definición:</strong>
+                Finalmente, y al igual que en la etapa anterior, se procededió a
+                compartir el proyecto de diseño UX-UI entregando en ello el total de las
+                pantallas de interacción del producto y sus mejoras en la experiencia de
+                usuario, considerando sobre la nueva propuesta, contenido, comunicación,
+                funcionalidad, interacción y navegabilidad.</p>
+
+                <p>Para este trabajo se realizó un testeo para ver si los usuarios encontraban intuitivo el proceso de compra, la navegación y los elementos dispuestos en la página. Para esto se ejecutaron entrevistas y observaciones que ayudaron a implmentar mejoras en el sitio y resultado final.s</p>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal 3 -->
+<div class="modal fade" id="modal3" tabindex="-1" aria-labelledby="exampleModalLabel3" aria-hidden="true">
+  <div class="modal-dialog modal-fullscreen">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel2">Actividad: Propuesta de solución digital en alta definición</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-md-6">
+            <div id="carouselExampleControls2" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="assets/img/raices1.jpg" class="d-block w-auto" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/img/raices2.jpg" class="d-block w-auto" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/img/raices3.jpg" class="d-block w-auto" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/img/raices4.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/img/raices5.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="" class="d-block w-auto" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="" class="d-block w-auto" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="" class="d-block w-auto" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="" class="d-block w-auto" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="" class="d-block w-auto" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls2" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls2" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <p><strong>Aprendizaje esperado:</strong> Crear un sitio web basándose en los conocimientos adquiridos en desarrollo de interfaz
+              mediante codificación HTML,CSS y uso de Bootstrap</p>
+              <p><strong>Caso: Raíces Artesanales</strong></p>
+              <p>Esta landing page tiene como propósito promocionar y vender productos artesanales chilenos a personas de entre
+                30 y 50 años, interesados en la cultura local y en apoyar productos hechos a mano. Además de ofrecer un catálogo
+                de productos, se busca conectar a los visitantes con el legado cultural de Chile mediante talleres online gratuitos
+                donde los artesanos comparten sus técnicas y procesos creativos.
+                La audiencia objetivo incluye tanto a personas que aprecian las creaciones únicas como a aquellos que desean
+                aprender más sobre la tradición artesanal de Chile.</p>
+                <p> Para lograr este propósito se realizó una breve investigación, blockframing del sitio en Figma y Visual Studio Core.</p>
+
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal 4 -->
+<div class="modal fade" id="modal4" tabindex="-1" aria-labelledby="exampleModalLabel4" aria-hidden="true">
+  <div class="modal-dialog modal-fullscreen">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel1">Actividad: Propuesta de solución digital en alta fidelidad para sitio web</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-md-6">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="assets/img/compost1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/img/compost2.jpg" class="d-block w-100" alt="...">
+                </div>
+                
+                <div class="carousel-item">
+                  <img src="assets/img/compost3.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/img/compost4.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/img/compost5.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/img/compost6.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/img/compost7.jpg" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <p><strong>Aprendizaje esperado:</strong> Crear un sitio web basándose en los conocimientos adquiridos en desarrollo de interfaz
+              mediante codificación HTML, CSS y uso de Bootstrap</p>
+              <p><strong>Caso: Compost En Casa</strong></p>
+            <p>Esta landing va dirigida tanto a niños como adultos, independiente de su nivel socioeconómico y ubicación
+              dentro del territorio nacional.
+            Esta landing page incluye una sección dedicada a los más pequeños, con actividades didácticas y adaptadas para
+              enseñarles cómo pueden participar en la creación de compost de una manera divertida y accesible.
+              El objetivo de esta landing page es educar y motivar a un público diverso para que adopte el compostaje
+              domiciliario como una práctica sostenible y económica. Se dirige a adultos interesados en reducir su impacto
+              ambiental y a padres que buscan incluir a sus hijos en actividades ecológicas desde temprana edad.
+              La audiencia objetivo incluye a personas de diferentes contextos y niveles socioeconómicos, lo cual requiere
+              un enfoque accesible e inclusivo. </p>
+          <p> En las imágenes pueden ver el resultado del sitio creado con HTML, uso de CSS y Bootstrap, además del blockframing realizado. </p>
+            </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+  
+  <!-- Habilidades -->
+<div class="container-fluid my-5" id="habilidades">
+  <div class="row">
+      <div class="container">
+          <h2 class="mb-4 text-center"><strong>Mis Habilidades</strong></h2>
+          <div class="row">
+              <div class="col-md-6 mb-4 d-flex">
+                  <div class="card card-custom shadow-sm">
+                      <div class="card-body " style="background-color: #e5dfff;">
+                        
+                          <h5 class="card-title"><strong>Investigación de usuarios</strong></h5>
+                          <p class="card-text">Realización de entrevistas, encuestas y análisis para comprender profundamente a los usuarios.</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-6 mb-4 d-flex">
+                  <div class="card card-custom shadow-sm">
+                      <div class="card-body" style="background-color: #aee6ae;">
+                          <h5 class="card-title"><strong>Diseño de interfaces</strong></h5>
+                          <p class="card-text">Creación de wireframes, prototipos y diseños finales funcionales en Figma.</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-6 mb-4 d-flex">
+                  <div class="card card-custom shadow-sm">
+                      <div class="card-body" style="background-color: #aee6ae;">
+                          <h5 class="card-title"><strong>Pruebas de usabilidad</strong></h5>
+                          <p class="card-text">Evaluación y optimización de productos a través de pruebas con usuarios y feedback continuo.</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-6 mb-4 d-flex">
+                  <div class="card card-custom shadow-sm">
+                      <div class="card-body" style="background-color: #e5dfff;">
+                          <h5 class="card-title"><strong>Colaboración</strong></h5>
+                          <p class="card-text">Trabajo en equipo con desarrolladores, investigadores y otros diseñadores para llevar a cabo proyectos de manera eficiente y efectiva.</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+<!-- objetivo-->
+<div class="container-fluid my-5">
+  <div class="highlight-section" style="background-color: #aee6ae;">
+      
+      <div class="highlight-text">
+          <h3 class="mb-3"><strong>Mi Objetivo</strong></h3>
+          <p style="font-size: large;">Mi objetivo es seguir aprendiendo y creciendo como diseñadora UX, aplicando todo lo que he aprendido en el curso a nuevos desafíos y oportunidades. Estoy emocionada por lo que el futuro me depara y estoy lista para seguir creando experiencias digitales significativas.</p>
+      </div>
+      <img src="assets/img/avatar4.jpg" alt="Imagen destacada" class="highlight-image">
+  </div>
+</div>
+    <!-- Contacto-->
+<div class="container-fluid contact-section text-center mb-5" style="background-color: #e5dfff;" id="contacto">
+  <h2><strong>Contacto</strong></h2>
+  <p style="font-size: large;">Estoy siempre en búsqueda de nuevas oportunidades y colaboraciones. ¡Hablemos!</p>
+  <a href="https://www.behance.net/javieraconchaescobar" target="_blank" class="btn btn-primary contact-button" style="background-color:  #053eff ;">Mi Behance</a>
+  <a href="https://www.linkedin.com/in/javiera-concha-escobar-860111260/" target="_blank" class="btn btn-secondary contact-button" style="background-color: #0e76a8;">Mi LinkedIn</a>
+</div>
+
+ <!-- Footer-->
+ <div class="footer container-fluid " id="footer">
+  <div class="row py-4">
+      <div class="col-md-4 d-flex">
+          <div class="card-body">
+              <h6 class="card-title">Portafolio Diseño UX/ UI - Javiera Concha</h6>
+          </div>
+      </div>
+      <div class="col-md-4">
+          <div class="card-body text-center">
+              <ul class="list-unstyled">
+                  <li><h6>Portafolio</h6></li>
+                  <li><a href="#portada">Sobre mí</a></li>
+                  <li><a href="#proyectos">Proyectos</a></li>
+                  <li><a href="#formacion">Formación</a></li>
+                  <li><a href="#contacto">Contacto</a></li>
+              </ul>
+          </div>
+      </div>
+      <div class="col-md-4">
+          <div class="card-body text-center">
+              <h6>Sígueme en</h6>
+              <div class="social-icons">
+                  <a href="https://www.linkedin.com/in/javiera-concha-escobar-860111260/" target="_blank">LinkedIn</a>
+                  <a href="https://www.behance.net/javieraconchaescobar" target="_blank">Behance</a>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+    
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
